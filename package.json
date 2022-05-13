@@ -17,7 +17,15 @@
   "license": "0BSD",
   "dependencies": {
     "gatsby": "^4.14.0",
+    "gatsby-image": "^3.11.0",
+    "gatsby-plugin-offline": "^5.14.0",
+    "gatsby-plugin-sharp": "^4.14.1",
+    "gatsby-plugin-typography": "^4.14.0",
+    "gatsby-source-filesystem": "^4.14.0",
+    "gatsby-transformer-sharp": "^4.14.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "typography": "^0.16.21",
+    "typography-theme-bootstrap": "^0.16.19"
   }
 }
