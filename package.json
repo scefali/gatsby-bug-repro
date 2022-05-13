@@ -27,5 +27,9 @@
     "react-dom": "^17.0.1",
     "typography": "^0.16.21",
     "typography-theme-bootstrap": "^0.16.19"
+  },
+  "volta": {
+    "node": "16.15.0",
+    "yarn": "1.22.18"
   }
 }
