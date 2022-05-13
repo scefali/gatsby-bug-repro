@@ -23,6 +23,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    { resolve: `gatsby-plugin-image` },
     // This plugin exposes helper functions for processing
     // images with the NPM package “sharp”. It's used by
     // several other plugins.
