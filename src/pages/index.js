@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { GatsbyImage } from "gatsby-plugin-image"
+import Img from "gatsby-image"
 import Layout from "../layouts"
 import { rhythm } from "../utils/typography"
 
@@ -257,7 +257,7 @@ class Index extends React.Component {
           </small>
         </h3>
 
-        <GatsbyImage fluid={fluid} />
+        <Img fluid={fluid} />
 
         <h3 style={{ marginTop: rhythm(2) }}>
           <small>
@@ -270,19 +270,19 @@ class Index extends React.Component {
 
         <div style={styles.row}>
           <div style={styles.column20}>
-            <GatsbyImage fluid={fluidDuotoneOriginal} />
+            <Img fluid={fluidDuotoneOriginal} />
           </div>
           <div style={styles.column20}>
-            <GatsbyImage fluid={fluidDuotone25} />
+            <Img fluid={fluidDuotone25} />
           </div>
           <div style={styles.column20}>
-            <GatsbyImage fluid={fluidDuotone50} />
+            <Img fluid={fluidDuotone50} />
           </div>
           <div style={styles.column20}>
-            <GatsbyImage fluid={fluidDuotone75} />
+            <Img fluid={fluidDuotone75} />
           </div>
           <div style={styles.column20}>
-            <GatsbyImage fluid={fluidDuotone} />
+            <Img fluid={fluidDuotone} />
           </div>
         </div>
 
@@ -330,7 +330,7 @@ class Index extends React.Component {
           to convert the source image to 8-bit greyscale, 256 shades of grey.
         </p>
 
-        <GatsbyImage fixed={fixed} />
+        <Img fixed={fixed} />
       </Layout>
     )
   }
